@@ -37,11 +37,11 @@ export const australiaVisas = [
     audience: { fa: 'دارندگان ویزای ۴۹۱ یا ۴۹۴ با سابقه شغلی و درآمد لازم', en: 'Holders of a 491 or 494 visa with the required work history and income' },
   },
   {
-    id: 'au-temporary-skill-shortage-482',
+    id: 'au-skilled-in-demand-482',
     country: 'australia',
     code: '482',
     category: 'skilled',
-    title: { fa: 'ویزای موقت کمبود مهارت', en: 'Temporary Skill Shortage (TSS) Visa' },
+    title: { fa: 'ویزای موقت کمبود مهارت', en: 'Skill in Demand (SID)' },
     summary: { fa: 'اقامت موقت از طریق اسپانسرشیپ کارفرما برای مشاغل مورد نیاز بازار کار استرالیا.', en: 'Temporary residency through employer sponsorship for occupations in demand in Australia.' },
     audience: { fa: 'دارندگان پیشنهاد شغلی از کارفرمای مجاز', en: 'Holders of a job offer from an approved sponsoring employer' },
   },
