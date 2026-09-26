@@ -108,15 +108,7 @@ export const australiaVisas = [
     summary: { fa: 'اقامت موقت پس از فارغ‌التحصیلی از یک دانشگاه استرالیایی، برای کسب تجربه کاری مرتبط.', en: 'Temporary residency after graduating from an Australian institution, to gain relevant work experience.' },
     audience: { fa: 'فارغ‌التحصیلانی که اخیراً ویزای تحصیلی داشته‌اند', en: 'Recent graduates who held a student visa' },
   },
-  {
-    id: 'au-skilled-recognised-graduate-476',
-    country: 'australia',
-    code: '476',
-    category: 'skilled',
-    title: { fa: 'ویزای فارغ‌التحصیل مهارتی شناخته‌شده', en: 'Skilled Recognised Graduate Visa' },
-    summary: { fa: 'اقامت موقت برای فارغ‌التحصیلان مهندسی برخی دانشگاه‌های مورد تایید خارج از استرالیا.', en: 'Temporary residency for recent engineering graduates from certain recognised institutions outside Australia.' },
-    audience: { fa: 'فارغ‌التحصیلان مهندسی زیر ۳۱ سال از دانشگاه‌های تاییدشده', en: 'Engineering graduates under 31 from an approved institution' },
-  },
+
 
   // Family & Partner
   {
@@ -199,6 +191,15 @@ export const australiaVisas = [
     title: { fa: 'ویزای موقت والدین مشارکتی', en: 'Contributory Parent (Temporary) Visa' },
     summary: { fa: 'اقامت موقت دو ساله که معمولاً پیش از ویزای دائم ۱۴۳ گرفته می‌شود.', en: 'A two-year temporary visa usually taken as a step before the permanent 143 visa.' },
     audience: { fa: 'والدینی که در انتظار نوبت ویزای دائم مشارکتی هستند', en: 'Parents waiting in the queue for the permanent contributory visa' },
+  },
+  {
+    id: 'au-sponsored-parent-temporary-870',
+    country: 'australia',
+    code: '870',
+    category: 'family',
+    title: { fa: 'ویزای موقت والدین اسپانسرشده', en: 'Sponsored Parent (Temporary) Visa' },
+    summary: { fa: 'اقامت موقت که به والدین اجازه می‌دهد تا ۵ سال (با امکان تمدید تا مجموع ۱۰ سال) در استرالیا بمانند، مشروط به تأیید اسپانسر و پرداخت هزینه.', en: 'A temporary visa allowing parents to stay in Australia for up to 5 years (renewable up to a total of 10 years), subject to sponsor approval and visa charges.' },
+    audience: { fa: 'والدینی که فرزند یا بستگان واجد شرایط آن‌ها را اسپانسر کرده و می‌خواهند پیش از یا در کنار روند ویزای دائم، در استرالیا اقامت داشته باشند', en: 'Parents whose child or eligible relative has sponsored them, who want to stay in Australia before or alongside the permanent visa process' },
   },
   {
     id: 'au-aged-parent-804',
